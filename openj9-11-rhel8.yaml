@@ -64,7 +64,8 @@ osbs:
     container:
       platforms:
         only:
-          - s390x
+          #- s390x
+          - ppc64le
       compose:
         # used for requesting ODCS compose of type "tag"
         packages:
